@@ -1,0 +1,360 @@
+{
+    "main": {
+        "ping": ["p"],
+        "version": ["v"]
+    },
+    "cogs": {
+        "botinfo": {
+            "botinfo": ["bif"]
+        },
+        "calculationcmds": {
+            "calculate": ["cal", "="]
+        },
+        "codes": {
+            "codes": [["cds"], {
+                "update": ["u", "ud"],
+                "error": ["e"]
+            }]
+        },
+        "cog_commands": {
+            "listcogs": ["lc"],
+            "load": ["ld"],
+            "unload": ["ul"],
+            "reload": ["rl"],
+            "sss": ["ss"]
+        },
+        "help": {
+            "help": ["h"]
+        },
+        "history": {
+            "history": [["ht"], {
+                "command": ["cm", "cmd"],
+                "Alpha_0_1": [["A01"], {
+                    "profit": ["pf"]
+                }],
+                "Alpha_0_2_1": [["A021"], {
+                    "listcogs": ["lc"]
+                }],
+                "Alpha_0_3_0": [["A030"], {
+                    "speed": ["sp"],
+                    "profit": ["pf"]
+                }],
+                "Beta_0_1_0": [["B010"], {
+                    "version": ["v"],
+                    "ping": ["p"]
+                }],
+                "Beta_0_2_0": [["B020"], {
+                    "speed": ["sp"],
+                    "profit": ["pf"],
+                    "search": ["sc"]
+                }],
+                "server_icon": [["si", "icon"], {
+                    "1": ["one"]
+                }],
+                "Beta_0_3_0": [["B030"], {
+                    "help": ["h"],
+                    "info": ["if"],
+                    "profit": ["pf"],
+                    "rules": ["rs"],
+                    "search": ["sc"],
+                    "speed": ["sp"],
+                    "updates": ["uds"]
+                }],
+                "Beta_0_4_0": [["B040"], {
+                    "info": ["if"],
+                    "help": ["h"],
+                    "profit": ["pf"],
+                    "search": ["sc"],
+                    "updates": ["uds"]
+                }],
+                "Beta_0_5_0": [["B050"], {
+                    "profit": ["pf"],
+                    "info": ["if"],
+                    "speed": ["sp"]
+                }],
+                "server": [["sv"], {
+                    "joins": ["j"]
+                }],
+                "idlecorpprofit": [["icp"], {
+                    "begin": ["bg"]
+                }],
+                "Beta_0_6_0": [["B060"], {
+                    "updates": ["uds"],
+                    "speed": ["sp"],
+                    "profit": ["pf"],
+                    "profitcomplete": ["pfc"]
+                }],
+                "Beta_0_6_1": [["B061"], {
+                    "search": ["sc"],
+                    "profitcomplete": ["pfc", "pfcomp"],
+                    "updates": ["uds", "ud"],
+                    "task": [["t"], {
+                        "add": ["a"],
+                        "change": ["c"],
+                        "remove": ["r"]
+                    }]
+                }],
+                "Stable_1_0": [["S10"], {
+                    "info": ["if"],
+                    "help": ["h"]
+                }],
+                "Stable_1_0_1": [["S101"], {
+                    "speed": ["sp"],
+                    "profit": ["pf"],
+                    "profitcomplete": ["pfc"],
+                    "suggest": [["sug", "sg", "sgt"], {
+                        "info": ["if", "i"]
+                    }],
+                    "updates": ["uds"]
+                }],
+                "Stable_1_0_2": [["S102"], {
+                    "updates": ["uds"]
+                }]
+            }]
+        },
+        "info": {
+            "info": ["if"]
+        },
+        "main": {
+            "send": ["sd"]
+        },
+        "ncguide": {
+            "ncguide": ["ncg"]
+        },
+        "profit": {
+            "profit": ["pf"]
+        },
+        "profitcomplete": {
+            "profitcomplete": ["pfcomp", "pfc"]
+        },
+        "profitfileexport": {
+            "profitfileexport": ["pffep"]
+        },
+        "rules": {
+            "rules": ["rs"]
+        },
+        "search": {
+            "search": ["sc"]
+        },
+        "speed": {
+            "speed": ["sp"]
+        },
+        "suggestions": {
+            "suggest": [["sg", "sug", "sgt"], {
+                "add": ["a"],
+                "edit": ["e"],
+                "vote": ["v"],
+                "info": ["i", "if"],
+                "change": ["c"],
+                "remove": ["r", "rm"]
+            }]
+        },
+        "task_status": {
+            "task": [["t"], {
+                "add": ["a"],
+                "change": ["c"],
+                "remove": ["r"]
+            }]
+        },
+        "updates": {
+            "updates": ["uds", "changelog"]
+        }
+    },
+    "cogs_loads": {
+        "botinfo": ["bif"],
+        "calculate": ["ccl"],
+        "calculationcmds": ["cc", "cclc", "clc"],
+        "codes": ["cd"],
+        "cogs_commands": ["cc"],
+        "custom_exception": ["ce"],
+        "error_handler": ["eh"],
+        "function_handler": ["fh"],
+        "help": ["h"],
+        "history": ["ht"],
+        "info": ["if"],
+        "isdigit": ["id"],
+        "main": ["m"],
+        "member_jnl": ["mj", "mm"],
+        "ncguide": ["ncg"],
+        "profit": ["p", "pf"],
+        "profitcomplete": ["pfcomp", "pfc"],
+        "profitfileexport": ["pffep"],
+        "repeating_decimal_sol": ["rds"],
+        "rules": ["rs"],
+        "search": ["sc"],
+        "Setup": ["su"],
+        "speed": ["sp"],
+        "status": ["s"],
+        "string_handler": ["sh"],
+        "suggestions": ["sgt", "sg"],
+        "task_status": ["ts"],
+        "updates": ["ud"],
+        "you_know": ["yk"]
+    },
+    "updates list": {
+        "first": {
+            "commands": ["cmds", "c"],
+            "other": ["o"],
+            "plans to update": ["ptu", "p"],
+            "note": ["n"]
+        },
+        "second": {
+            "adds": ["ad", "a"],
+            "changes": ["cg", "c"],
+            "deletes": ["dl", "d"]
+        },
+        "third": {
+            "commands": ["cmds", "c"],
+            "systems": ["st", "s"],
+            "others": ["o"]
+        }
+    },
+    "ic": {
+        "assets": {
+            "land": null,
+            "scrap": null,
+            "crude_oil": ["crudeoil", "oil"],
+            "bauxite": null,
+            "wood": null,
+            "coal": null,
+            "plastic": null,
+            "led": null,
+            "iron": null,
+            "polyester": null,
+            "aluminum": ["aluminium"],
+            "gasoline": ["gas", "petrol"],
+            "cotton": null,
+            "jet_fuel": ["jetfuel"],
+            "rubber": null,
+            "steel": null,
+            "energy": null,
+            "silicon": null,
+            "lamp": ["lamps"],
+            "glass": null,
+            "clothing": ["clothes"],
+            "furniture": ["furni"],
+            "gold": null,
+            "rocket_fuel": ["rocketfuel"],
+            "research_chemical": ["res chemical", "res chem", "research chemicals", "researchchemical"],
+            "cpu": ["cpus"],
+            "bicycle": ["bicycles", "bike", "bikes"],
+            "prescription_drug": ["drug", "drugs", "medicine"],
+            "ccd": ["ccds"],
+            "cell_phone": ["cell phones", "cellphone", "phone", "phones"],
+            "laptop": ["laptops"],
+            "digital_camera": ["digital cameras", "digitalcamera", "camera", "cameras"],
+            "television": ["tv", "tvs"],
+            "gasoline_engine": ["gasoline engines", "gasolineengine", "gas engine", "gas engines", "petrol engine", "gasengine"],
+            "car": ["cars"],
+            "rocket": null
+        },
+        "facilities": {
+            "tree_farm": ["treefarm", "wood farm", "woodfarm"],
+            "oil_well": ["oilwell"],
+            "coal_mine": ["coalmine"],
+            "iron_mine": ["ironmine"],
+            "oil_refinery": ["oilrefinery", "gas refinery", "gasrefinery", "gas plant", "gasplant"],
+            "steel_mill": ["steelmill", "steel furnace", "steelfurnace"],
+            "bauxite_mine": ["bauxitemine"],
+            "rubber_factory": ["rubberfactory", "rubber plant", "rubberplant", "rubber fac"],
+            "gas_station": ["gasstation"],
+            "furniture_factory": ["furniturefactory", "furniture fac", "furni factory", "furni fac"],
+            "aluminum_factory": ["aluminumfactory", "aluminum fac"],
+            "led_factory": ["ledfactory", "led fac"],
+            "polyester_factory": ["polyesterfactory", "polyester fac"],
+            "silicon_mine": ["siliconmine"],
+            "bicycle_factory": ["bicyclefactory", "bike factory", "bikefactory", "bike fac"],
+            "gold_mine": ["goldmine"],
+            "lamp_factory": ["lampfactory", "lamp fac"],
+            "cotton_farm": ["cottonfarm"],
+            "plastic_factory": ["plasticfactory", "plastic fac"],
+            "ccd_factory": ["ccdfactory", "ccd fac"],
+            "glass_factory": ["glassfactory", "glass fac"],
+            "cpu_factory": ["cpufactory", "cpu fac"],
+            "clothing_factory": ["clothingfactory", "clothing fac"],
+            "cell_phone_factory": ["cellphone factory", "cellphonefactory", "cell phone fac", "phone factory", "phone fac"],
+            "coal_power_plant": ["coal plant", "coalplant"],
+            "laptop_factory": ["laptopfactory", "laptop fac"],
+            "research_chemical_factory": ["researchchemicalfactory", "research chemical fac", "chemical factory", "chemical fac", "res chem fac", "chem fac"],
+            "solar_power_plant": ["solar plant", "solarplant"],
+            "rocket_fuel_factory": ["rocketfuelfactory", "rocket fuel fac", "rocketfuel fac"],
+            "digital_camera_factory": ["digitalcamerafactory", "digital camera fac", "camera factory", "camera fac"],
+            "television_factory": ["televisionfactory", "tv factory", "tv fac"],
+            "gasoline_engine_factory": ["gasolineenginefactory", "gas engine factory", "gas engine fac"],
+            "car_factory": ["carfactory", "car fac"],
+            "logistics_center": ["logistics centre", "logisticscenter", "logistics", "lc"],
+            "prescription_drug_factory": ["precrriptiondrugfactory", "prescription drug fac", "drug factory", "drug fac"],
+            "airport": null,
+            "retail_store": ["retailstore", "retail", "store"],
+            "research_facility": ["researchfacility", "research fac", "res fac", "search center", "research centre", "researchcenter", "rf", "research lab"],
+            "customer_support_center": ["customer support centre", "customersupportcenter", "supporter center", "support centre", "customer support", "cupportcenter"],
+            "hq": ["headquarters", "head quarters"]
+        },
+        "blueprints": {
+            "oil_mapping_blueprint": ["oil mapping bp", "oilmappingblueprint"],
+            "coal_detector_blueprint": ["coal detector bp", "coaldetectorblueprint"],
+            "log_loader_blueprint": ["log loader bp", "logloaderblueprint"],
+            "advanced_woodworking_blueprint": ["advanced woodworking bp", "adv ww bp", "advancedwoodworkingblueprint"],
+            "bauxite_detector_blueprint": ["bauxite detector bp", "bauxitedectorblueprint"],
+            "jet_fuel_refining_blueprint": ["jet fuel refining bp", "jetfuelrefiningblueprint"],
+            "gold_detector_blueprint": ["gold detector bp", "golddetectorblueprint"],
+            "vacuum_distillation_blueprint": ["vacuum distillation bp", "vac distillation bp", "vac dist bp", "vacuumdistillationblueprint"],
+            "robotic_automation_blueprint": ["robotic automation bp", "robo auto bp", "roboticautomationbleuprint"],
+            "factory_specialization_blueprint": ["factory specialization bp", "factory spec bp", "fac spec bp", "factoryspecializationblueprint"],
+            "mining_specialization_blueprint": ["mining specialization bp", "mining spec bp", "miningspecializationblueprint"],
+            "oil_specialization_blueprint": ["oil specialization bp", "oil spec bp", "oilspecializationblueprint"],
+            "energy_specialization_blueprint": ["energy specialization bp", "energy spec bp", "energyspecializationblueprint"],
+            "logistics_ecpansion_blueprint": ["logistics expansion bp", "logisticsexpansionblueprint"],
+            "airport_tram_blueprint": ["airport tram bo", "airporttramblueprint"],
+            "quality_control_blueprint": ["quality control bp", "qualitycontrolblueprint"],
+            "reincorporation_computer_blueprint": ["ri computer bp", "ri comp bp", "ric bp", "reincorportioncomputerblueprint"]
+        },
+        "technologies": {
+            "oil_mapping": ["oilmapping"],
+            "oil_mapping_u": ["oilmappingu"],
+            "oil_mapping_uu": ["oilmappinguu"],
+            "coal_detector": ["coaldetector"],
+            "coal_detector_u": ["coaldetectoru"],
+            "coal_detector_uu": ["coaldetectoruu"],
+            "log_loader": ["logloader"],
+            "log_loader_u": ["logloaderu"],
+            "log_loader_uu": ["logloaderuu"],
+            "advanced_woodworking": ["adv ww", "advancedwoodworking"],
+            "advanced_woodworking_u": ["adv ww u", "advancedwiidwirkingu"],
+            "advanced_woodworking_uu": ["adv ww uu", "advancedwoodworkinguu"],
+            "bauxite_detector": ["bauxitedetector"],
+            "bauxite_detector_u": ["bauxitedetectoru"],
+            "jet_fuel_refining": ["jetfuelrefining"],
+            "jet_fuel_refining_u": ["jetfuelrefiningu"],
+            "gold_detector": ["golddetector"],
+            "gold_detector_u": ["golddetectoru"],
+            "gold_detector_uu": ["golddetectoruu"],
+            "vacuum_disuillation": ["vac disuillation", "vac dist", "vacuumdistillation"],
+            "vacuum_distillation_u": ["vac distillation u", "vac dist u", "vacuumdistillationu"],
+            "robotic_automation": ["robo auto", "roboticautomation"],
+            "robotic_automation_u": ["robo auto u", "roboticautomationu"],
+            "robotic_automation_uu": ["robo auto uu", "roboticautomationuu"],
+            "factory_specialization": ["factory spec", "fac spec", "factroryspecialization"],
+            "mining_specialization": ["mine specialization", "mining spec", "mine spec", "miningspecialization"],
+            "oil_specialization": ["oil spec", "oilspecialization"],
+            "energy_specialization": ["energy spec", "energyspecialization"],
+            "logistics_expansion": ["logisticsexpansion", "log expansion"],
+            "logistics_expansion_u": ["logisticsexpansionu", "log expansion"],
+            "airport_tram": ["airporttram"],
+            "airport_tram_u": ["airporttramu"],
+            "quality_control": ["qualitycontrol"],
+            "quality_control_u": ["qualitycontrolu"],
+            "reincorporation_computer": ["ri computer", "ri comp", "ric", "reincorporationcomputer"]
+        },
+        "services": {
+            "medium_park": null,
+            "region_office": null,
+            "large_park": null,
+            "land_management_office": ["land office"],
+            "unversity": null,
+            "small_park": null,
+            "fiber_infrastructure": "fiber"
+        },
+        "policies": {}
+    }
+}

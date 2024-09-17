@@ -1,0 +1,243 @@
+{
+    "commands": {
+        "ping": ["Can show the gateway latency of the bot",
+            "ping"],
+        "version": ["Can show the version of the bot",
+            "version"],
+        "botinfo": ["Show the bot and server information",
+            "botinfo"],
+        "speed": ["Calculate the result of facility's consumes and produces speed per second",
+            "speed [--<s|second|minute|min|m|hour|hr|h|day|d>] <facility> [number]"],
+        "profit": ["Calculate the result of facility's consumes and produces profit per second",
+            "profit [--<s|second|minute|min|m|hour|hr|h|day|d>] <facility> [number]"],
+        "profitcomplete": ["`profit` and more things of the profit.txt",
+            "profitcomplete [--<s|second|minute|min|m|hour|hr|h|day|d>] <facility> [number]"],
+        "history": ["Use the pass version of commands",
+            "history <<version>|server_icon> <command|(server_icon)<server icon version>> <command>"],
+        "info": ["Show the info of about IdleCorp items",
+            "info <IdleCorp's>"],
+        "rules": ["Can show the server rules in every version",
+            "rules [--<version>] [rule number]"],
+        "search": ["Can search something",
+            "search [--<April|april|20210401|aprilfool>] [thing]"],
+        "updates": ["can show the bot updates in every version",
+            "updates [--<version>] [update(split with \".\")]"],
+        "codes": ["Cam show the details of codes",
+            "codes <code>"],
+        "help": ["Can show the details and informations of commands",
+            "help [command]"],
+        "profitfileexport": ["Export a profit.txt or something into embeds, text file or a ZIP/RAR file",
+            "profitfileexport [--<embed|zip>] [version]"],
+        "calculate": ["Quick calculate with the command",
+            "calculate <plus|p|+|times|t|x|*> <expression>"],
+        "suggest": ["Suggest some suggestions",
+            "suggest <add|edit|vote|info> <suggestion|suggestion_id>"],
+        "ncguide": ["The categoried new comer guide",
+            "ncguide [part]"]
+    },
+    "info": {
+        "aliases": {
+            "bot_main": {
+                "ping": ["p"],
+                "version": ["v"]
+            },
+            "calculationcmds": {
+                "calculate": ["cal", "="]
+            },
+            "codes": {
+                "codes": {
+                    "__init__": ["cds"],
+                    "update": ["u", "ud"],
+                    "error": ["e"]
+                }
+            },
+            "cog_commands": {
+                "listcogs": ["lc"],
+                "load": ["ld"],
+                "unload": ["ul"],
+                "reload": ["rl"],
+                "sss": ["ss"]
+            },
+            "help": {
+                "help": ["h"]
+            },
+            "history": {
+                "history": {
+                    "__init__": ["ht"],
+                    "command": ["cm", "cmd"],
+                    "Alpha_0_1": {
+                        "__init__": ["A01"],
+                        "profit": ["pf"]
+                    },
+                    "Alpha_0_2_1": {
+                        "__init__": ["A021"],
+                        "listcogs": ["lc"]
+                    },
+                    "Alpha_0_3_0": {
+                        "__init__": ["A030"],
+                        "speed": ["sp"],
+                        "profit": ["pf"]
+                    },
+                    "server_icon": {
+                        "__init__": ["si", "icon"], 
+                        "1": ["one"]
+                    },
+                    "Beta_0_3_0": {
+                        "__init__": ["B030"],
+                        "help": ["h"],
+                        "info": ["if"],
+                        "profit": ["pf"],
+                        "rules": ["rs"],
+                        "search": ["sc"],
+                        "speed": ["sp"],
+                        "updates": ["uds"]
+                    },
+                    "Beta_0_4_0": {
+                        "__init__": ["B040"],
+                        "info": ["if"],
+                        "help": ["h"],
+                        "profit": ["pf"],
+                        "search": ["sc"],
+                        "updates": ["uds"]
+                    }
+                }
+            },
+            "info": {
+                "info": ["if"]
+            },
+            "main": {
+                "send": ["sd"]
+            },
+            "ncguide": {
+                "ncguide": ["ncg"]
+            },
+            "profit": {
+                "profit": ["pf"]
+            },
+            "profitcomplete": {
+                "profitcomplete": ["pfc"]
+            },
+            "profitfileexport": {
+                "profitfileexport": ["pffep"]
+            },
+            "rules": {
+                "rules": ["rs"]
+            },
+            "speed": {
+                "speed": ["sp"]
+            },
+            "suggestions": {
+                "suggest": {
+                    "__init__": ["sug", "sgt", "sg"],
+                    "add": ["a"],
+                    "edit": ["e"],
+                    "vote": ["v"],
+                    "info": ["if", "i"],
+                    "change": ["cg", "c"],
+                    "remove": ["r", "rm"]
+                }
+            },
+            "task_status": {
+                "task": {
+                    "__init__": ["t"],
+                    "add": ["a"],
+                    "change": ["c"],
+                    "remove": ["r"]
+                }
+            },
+            "updates": {
+                "updates": ["uds", "changelog"]
+            }
+        },
+        "details": {
+            "bot_main": {
+                "ping": "",
+                "version": ""
+            },
+            "codes": {
+                "codes": {
+                    "__init__": "",
+                    "update": "Show the update codes details",
+                    "error": "Show the error codes details"
+                }
+            },
+            "cog_commands": {
+                "listcogs": "Show a list of cogs",
+                "load": "Load cogs",
+                "unload": "Unload cogs",
+                "reload": "Reload cogs",
+                "sss": "SHow status of cogs"
+            },
+            "help": {
+                "help": "Show the details of every commands"
+            },
+            "history": {
+                "history": {
+                    "__init__": "",
+                    "command": "Use commands in history",
+                    "Alpha_0_1": {
+                        "__init__": "Use the vereion {-1} history",
+                        "profit": "Calculate"
+                    },
+                    "Alpha_0_2_1": {
+                        "__init__": "Use the vereion {-1} history",
+                        "listcogs": "List"
+                    },
+                    "Alpha_0_3_0": {
+                        "__init__": "Use the vereion {-1} history",
+                        "speed": "Calculate",
+                        "profit": "Calculate"
+                    },
+                    "server_icon": {
+                        "__init__": "Show the server icons in history", 
+                        "1": "Version {-1}"
+                    },
+                    "Beta_0_3_0": {
+                        "__init__": "Use the vereion {-1} history",
+                        "help": "",
+                        "info": "",
+                        "profit": "",
+                        "rules": "",
+                        "search": "",
+                        "speed": "",
+                        "updates": ""
+                    },
+                    "Beta_0_4_0": {
+                        "__init__": "Use the vereion {-1} history",
+                        "info": "",
+                        "help": "",
+                        "profit": "",
+                        "search": "",
+                        "updates": ""
+                    }
+                }
+            },
+            "info": {
+                "info": "Show the information of IdleCorp assets and stuff"
+            },
+            "main": {
+                "send": ""
+            },
+            "profit": {
+                "profit": ""
+            },
+            "rules": {
+                "rules": ""
+            },
+            "speed": {
+                "speed": ""
+            },
+            "task_status": {
+                "task": {
+                    "__init__": "Change the rask",
+                    "add": "Add tasks",
+                    "change": "Change tasks status",
+                    "remove": "Remove tasks"
+                }
+            },
+            "updates": {
+                "updates": "Show bot updates details"
+            }
+        }
+    }
+}
